@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Text To Speech.exe" version="1.0.0.0" publicKeyToken="a1d5e526c9de8a6b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon_Logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Text To Speech" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Text To Speech.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Text To Speech.exe" size="100832">
+      <assemblyIdentity name="Text To Speech" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LSF5ZhptF9svxJMcdiJAKeeY/uZNlQ9wi174/ucdAJQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icon_Logo.ico" size="26582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hTp9JShuNdl6WLnL302lGf5/X70SKyK7nMaWLbHId7c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Text To Speech.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-714JBJK\admin" issuerKeyHash="7fd8222090ed9d7a8a9893a27ba2543b1dd0f820" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/ozghXbUrppOxzLxWJDMjzVPPfWrCBPFiVTcz4YmUfo=</DigestValue></Reference></SignedInfo><SignatureValue>uo9SR0ej1V9R/xBxAsE79fPqFa7QigDkqu0IsuknjCB6rbThmB3G/yUYNzwBEbAUhCzy40L34KEQ6trCF1LT97YBAcea6BBIe6dyXdZgRSUSvtcYLeeFKPhJS/m7bY8FC+dd0Uj3PFFRk+hYI+5PjdDIRlvACDLyaZ2uLTvq574=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>54UVCK1lU72pQdcZFwgpSpFd0wJB+l0bPbFHeSOJsqCfoOkPEgnZIjlzDMEOFSPaJHdEGS1fgSl3pkGh534/gD6AWG2hr6yDUMrNKsym/cOWoQwWeidv8nOBO93fopmcRQpkqBb5WBNuHhBO6zaEip4boREVxrcxZqg6RdmNXiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fa512686cfdc5489c51308abf53d4f358fcc9058f132c74e9aaed47685e08cfe" Description="" Url=""><as:assemblyIdentity name="Text To Speech.exe" version="1.0.0.0" publicKeyToken="a1d5e526c9de8a6b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-714JBJK\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jlDjDcD22GmpAburEN/uEA2MNu75FLGFNly3KaSfKGI=</DigestValue></Reference></SignedInfo><SignatureValue>M+njjmVeLuIwLfoqG70CaXdmLuDdPOQ3/UFU+0TA06o3JdPwxM/d94LBm3ypAwDzayu9YhOX15CM9I2QWQQsjkqf29ilgSw5Kh6AndCH7wKDA2reVxbhTt8nd8/oftPtm+dCWbb4aMHBLvhr2cWxTcQXHIybz0/Fhh7gpD0zeq0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>54UVCK1lU72pQdcZFwgpSpFd0wJB+l0bPbFHeSOJsqCfoOkPEgnZIjlzDMEOFSPaJHdEGS1fgSl3pkGh534/gD6AWG2hr6yDUMrNKsym/cOWoQwWeidv8nOBO93fopmcRQpkqBb5WBNuHhBO6zaEip4boREVxrcxZqg6RdmNXiE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFbm/dPGxV7RDORDwizFg1jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcAMQA0AEoAQgBKAEsAXABhAGQAbQBpAG4wHhcNMTcwOTI5MTU1MzUwWhcNMTgwOTI5MjE1MzUwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADcAMQA0AEoAQgBKAEsAXABhAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOeFFQitZVO9qUHXGRcIKUqRXdMCQfpdGz2xR3kjibKgn6DpDxIJ2SI5cwzBDhUj2iR3RBktX4Epd6ZBoed+P4A+gFhtoa+sg1DKzSrMpv3DlqEMFnonb/JzgTvd36KZnEUKZKgW+VgTbh4QTus2hIqeG6ERFca3MWaoOkXZjV4hAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADqgceZWLyOfq9SM70gmpJyRhoXI9NoaMYlC5Fljyg3G8j6t5g3ZrKQkKuOCc9aVkhrnhDZk7Fl5ynCsz7uy3utgxPfJenwIVgp79Kmy/UWnJmkNlYdFFGN1rUq4VnOz5br+bWjpL8gWUMb+JO8JHhUHvty/wg+Z7Y4CvReZe/cs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
